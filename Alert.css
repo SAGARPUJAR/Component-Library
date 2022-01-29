@@ -1,3 +1,7 @@
+:root {
+  --color: black;
+}
+
 .header {
   text-align: center;
   color: indianred;
@@ -10,11 +14,11 @@
 }
 
 .alert {
-  border: 2px solid black;
+  border: 2px solid var(--color);
   height: 20px;
-  padding: 15px 10px;
+  padding: 0.9375rem 0.625rem;
   width: 100%;
-  border-radius: 0.4rem;
+  border-radius: 4px;
   margin-bottom: 10px;
   /* width: 50%; */
 }
@@ -67,5 +71,5 @@
 }
 
 .closebtn:hover {
-  color: black;
+  color: var(--color);
 }
