@@ -2,14 +2,15 @@ header {
   text-align: center;
 }
 
-
-
 .content {
   text-indent: 50px;
   text-align: justify;
   letter-spacing: 3px;
 }
-
+.ng-position {
+  position: fixed;
+  margin-left: 60px;
+}
 .ng-badge {
   display: inline-block;
   padding: 5px 10px;
