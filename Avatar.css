@@ -8,13 +8,30 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
-.avatar{
+.avatar {
+  border-radius: 80px;
+  /* margin: 100px; */
+}
 
-    height: 100px;
-    width: 100px;
-    border-radius: 80px;
-    margin: 100px;
+.av-xl {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.av-md {
+  height: 100px;
+  width: 100px;
+}
+.av-sm {
+  height: 50px;
+  width: 50px;
+}
+
+.av-Placeholder{
+  display: flex;
+  align-items: center;
+  margin: 60px;
 }
