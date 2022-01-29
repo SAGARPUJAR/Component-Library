@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+}
+
+.content {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.ng-badge {
+  display: inline-block;
+  padding: 4px 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+}
+
+.ng-green {
+  background-color: green;
+  color: white;
+}
+
+.ng-red {
+  background-color: red;
+  color: white;
+}
