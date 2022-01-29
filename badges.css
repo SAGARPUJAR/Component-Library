@@ -34,3 +34,26 @@ header {
   color: white;
   border-color: whitesmoke;
 }
+.avatar {
+  border-radius: 80px;
+}
+
+.av-xl {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.av-md {
+  height: 6.25rem;
+  width: 6.25rem;
+}
+.av-sm {
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.av-Placeholder {
+  display: flex;
+  align-items: center;
+  margin: 60px;
+}
