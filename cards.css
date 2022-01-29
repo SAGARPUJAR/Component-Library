@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.text-center {
+  text-align: center;
+}
+.ca-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  max-width: 12%;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: auto;
+  background: rgb(243, 242, 242);
+  border: none;
+  box-shadow: 10px 5px 4px grey;
+}
+.ca-header {
+  border-bottom: 1px solid;
+  padding: 8px;
+}
+
+.ca-body {
+  padding: 8px;
+  border-bottom: 1px solid;
+}
+
+.ca-footer {
+  padding: 8px;
+}
+
+button {
+  float: right;
+  border: none;
+  cursor: pointer;
+}
