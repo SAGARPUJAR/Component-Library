@@ -2,6 +2,8 @@ header {
   text-align: center;
 }
 
+
+
 .content {
   text-indent: 50px;
   text-align: justify;
@@ -10,7 +12,7 @@ header {
 
 .ng-badge {
   display: inline-block;
-  padding: 4px 20px;
+  padding: 5px 10px;
   text-align: center;
   border-radius: 50%;
   background-color: #000;
@@ -25,4 +27,10 @@ header {
 .ng-red {
   background-color: red;
   color: white;
+}
+
+.ng-yellow {
+  background-color: rgb(242, 226, 7);
+  color: white;
+  border-color: whitesmoke;
 }
