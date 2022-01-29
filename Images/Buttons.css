@@ -1,10 +1,15 @@
 .header {
   text-align: center;
 }
-
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .btn {
-  height: 2rem;
-  width: 8rem;
+  height: 2.3rem;
+  width: 10rem;
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -39,5 +44,11 @@
   color: #0d6efd;
   text-decoration: underline;
   background-color: #fff;
-  
+}
+
+.floating-actionbtn {
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 100px;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 40%);
 }
