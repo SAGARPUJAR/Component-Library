@@ -23,9 +23,9 @@
 }
 
 .btn-Secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #0d6efd;
+  background-color: transparent;
+  border-color: grey;
 }
 
 .btn-success {
