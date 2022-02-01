@@ -1,0 +1,54 @@
+.header {
+  text-align: center;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.btn {
+  height: 2.3rem;
+  width: 10rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #2168d3;
+}
+
+.btn-Secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: rgb(10, 141, 10);
+  border-color: rgb(10, 141, 10);
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+}
+
+.btn-link {
+  color: #0d6efd;
+  text-decoration: underline;
+  background-color: #fff;
+}
+
+.floating-actionbtn {
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 100px;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 40%);
+}

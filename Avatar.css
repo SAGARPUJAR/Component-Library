@@ -1,0 +1,20 @@
+.container {
+  box-sizing: border-box;
+  text-align: center;
+  color: darkblue;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.avatar{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    margin: 100px;
+}
