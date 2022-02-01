@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: "Cairo", sans-serif;
 }
 .text-center {
   text-align: center;
@@ -11,20 +13,28 @@
 }
 .card {
   width: 20rem;
-  border: 1px solid rgb(243, 242, 242);
+  border: 1px solid rgb(205 198 198);
   border-radius: 5px;
   overflow: hidden;
   background: rgb(243, 242, 242);
 }
+.ca-lg{
+  width: 100%;
+}
+
 .ca-shadow {
   box-shadow: 10px 5px 4px grey;
 }
+.text-center {
+  text-align: center;
+}
+
 .ca-header {
   padding: 8px;
 }
 
 .ca-body {
-  padding: 8px;
+  padding: 20px;
   background: #fff;
 }
 
@@ -51,9 +61,46 @@ button {
   cursor: pointer;
 }
 
-.centered {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+.caption {
+  font-weight: 600;
+}
+
+.price-md {
+  color: #b12704;
+  font-weight: 700;
+}
+
+.price-lg {
+  font-size: larger;
+  color: #b12704;
+  font-weight: 700;
+}
+
+.price-sm {
+  font-size: 0.7rem;
+}
+
+.fa-icon-amazon {
+  color: orange;
+}
+
+.ca-hr{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+}
+
+
+.img-small{
+  width: 50%;
+}
+
+.item-info{
+  background: white;
+  padding: 20px;
+}
+
+.img-hr-center{
+  display: flex;
+  justify-content: center;
 }
