@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* font-family: 'PT Sans', sans-serif; */
   font-family: "Cairo", sans-serif;
 }
 .text-center {
@@ -120,28 +119,14 @@ button {
 }
 
 .seller-rotate {
-  /* background-color: orange;
-  padding: 5px;
-  border-radius: 4px;
-  color: #fff;
-  position: absolute;
-  -ms-transform: rotate(45deg);
-  -ms-transform-origin: 20% 40%;
-  transform: rotate(-31deg);
-  transform-origin: 49% 175%; */
   background-color: orange;
   padding: 4px;
   border-radius: 4px;
   color: #fff;
-  /* position: absolute; */
   -ms-transform: rotate(45deg);
   -ms-transform-origin: 20% 40%;
   transform: rotate(43deg);
   transform-origin: 49% 175%;
   float: right;
   font-size: 25px;
-}
-
-.card:hover #newdata {
-  
 }
