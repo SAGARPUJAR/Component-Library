@@ -8,7 +8,7 @@ header {
 }
 .ng-position {
   position: fixed;
-  margin-left: 60px;
+  margin-left: 3.75rem;
 }
 .ng-badge {
   display: inline-block;
@@ -34,14 +34,17 @@ header {
   color: white;
   border-color: whitesmoke;
 }
+
+/* For Avatar with badge */
+
 .avatar {
   border-radius: 80px;
 }
 
 .av-xl {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 6.25rem;
 }
 .av-md {
   height: 6.25rem;
@@ -55,5 +58,5 @@ header {
 .av-Placeholder {
   display: flex;
   align-items: center;
-  margin: 60px;
+  margin: 3.75;
 }

@@ -1,3 +1,7 @@
+:root {
+  --bgcolor: #487391;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +10,7 @@ body {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 12.5rem;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -16,13 +20,13 @@ body {
 .sidebar a {
   display: block;
   color: black;
-  padding: 16px;
+  padding: 1rem;
   text-decoration: none;
-  border-bottom: 1px solid #487391;
+  border-bottom: 1px solid var(--bgcolor);
 }
 
 .sidebar a.active {
-  background-color: #487391;
+  background-color: var(--bgcolor);
   color: white;
 }
 
@@ -32,7 +36,7 @@ body {
 }
 
 div.content {
-  margin-left: 200px;
-  padding: 40px;
+  margin-left: 12.5rem;
+  padding: 2.5rem;
   height: auto;
 }

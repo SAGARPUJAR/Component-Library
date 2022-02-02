@@ -1,5 +1,6 @@
 :root {
-  --color: black;
+  --secondarycolor: black;
+  --colorwhite: white;
 }
 
 .header {
@@ -16,7 +17,7 @@
 }
 
 .alert {
-  border: 2px solid var(--color);
+  border: 2px solid var(--secondarycolor);
   height: 20px;
   padding: 0.9375rem 0.625rem;
   width: 100%;
@@ -25,7 +26,7 @@
 }
 
 .alert-danger {
-  color: white;
+  color: var(--colorwhite);
   background-color: #fecaca;
   border-color: #f5cece;
 }
@@ -62,7 +63,7 @@
 
 .closebtn {
   margin-left: 15px;
-  color: white;
+  color: var(--colorwhite);;
   font-weight: bold;
   float: right;
   font-size: 22px;
@@ -72,5 +73,5 @@
 }
 
 .closebtn:hover {
-  color: var(--color);
+  color: var(--secondarycolor);
 }
