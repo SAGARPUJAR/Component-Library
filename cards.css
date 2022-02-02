@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: "Cairo", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.ca-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  width: 20rem;
+  border: 1px solid rgb(205 198 198);
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgb(243, 242, 242);
+}
+.ca-lg {
+  width: 100%;
+}
+.ca-nobg {
+  background-color: #fff;
+}
+.ca-bg {
+  background: rgb(243, 242, 242) !important;
+}
+.ca-shadow {
+  box-shadow: 9px 5px 5px rgb(0 0 0 / 30%);
+}
+.text-center {
+  text-align: center;
+}
+
+.ca-header {
+  padding: 8px;
+}
+
+.ca-body {
+  padding: 20px;
+  background: #fff;
+}
+
+.ca-footer {
+  padding: 8px;
+}
+
+.ca-img-overlay {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+button {
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+
+.caption {
+  font-weight: 600;
+}
+
+.price-md {
+  color: #b12704;
+  font-weight: 700;
+}
+
+.price-lg {
+  font-size: larger;
+  color: #b12704;
+  font-weight: 700;
+}
+
+.price-sm {
+  font-size: 0.7rem;
+}
+
+.fa-icon-amazon {
+  color: orange;
+}
+
+.ca-hr {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+}
+
+.img-small {
+  width: 50%;
+}
+
+.item-info {
+  background: white;
+  padding: 20px;
+}
+
+.img-hr-center {
+  display: flex;
+  justify-content: center;
+}
+
+.seller {
+  width: 150px;
+  height: 50px;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.seller-rotate {
+  /* background-color: orange;
+  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  position: absolute;
+  -ms-transform: rotate(45deg);
+  -ms-transform-origin: 20% 40%;
+  transform: rotate(-31deg);
+  transform-origin: 49% 175%; */
+  background-color: orange;
+  padding: 4px;
+  border-radius: 4px;
+  color: #fff;
+  /* position: absolute; */
+  -ms-transform: rotate(45deg);
+  -ms-transform-origin: 20% 40%;
+  transform: rotate(43deg);
+  transform-origin: 49% 175%;
+  float: right;
+  font-size: 25px;
+}
+
+.card:hover #newdata {
+  
+}

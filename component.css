@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #487391;
+}
+
+.sidebar a.active {
+  background-color: #487391;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #6b8ba2;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 40px;
+  height: auto;
+}

@@ -1,0 +1,60 @@
+header {
+  text-align: center;
+}
+
+.content {
+  /* text-indent: 50px;  */
+  text-align: justify;
+  letter-spacing: 3px;
+}
+.ng-position {
+  position: fixed;
+  margin-left: 60px;
+}
+.ng-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+}
+
+.ng-green {
+  background-color: green;
+  color: white;
+}
+
+.ng-red {
+  background-color: red;
+  color: white;
+}
+
+.ng-yellow {
+  background-color: rgb(242, 226, 7);
+  color: white;
+  border-color: whitesmoke;
+}
+.avatar {
+  border-radius: 80px;
+}
+
+.av-xl {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.av-md {
+  height: 6.25rem;
+  width: 6.25rem;
+}
+.av-sm {
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.av-Placeholder {
+  display: flex;
+  align-items: center;
+  margin: 60px;
+}
