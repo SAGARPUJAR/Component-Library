@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
 
 .container {
   margin-left: 10%;

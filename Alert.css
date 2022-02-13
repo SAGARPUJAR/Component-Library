@@ -2,10 +2,12 @@
   --secondarycolor: black;
   --colorwhite: white;
 }
-
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}
 .header {
   text-align: center;
-  color: indianred;
+  /* color: indianred; */
 }
 
 .container {
@@ -14,6 +16,15 @@
   flex-wrap: wrap;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.headertext {
+  color: indianred !;
+}
+
+.pre {
+  background: lightgrey;
+  width: 100%;
 }
 
 .alert {
@@ -63,7 +74,7 @@
 
 .closebtn {
   margin-left: 15px;
-  color: var(--colorwhite);;
+  color: var(--colorwhite);
   font-weight: bold;
   float: right;
   font-size: 22px;

@@ -4,6 +4,9 @@
   --bgdanger: red;
   --bgwhite: #fff;
 }
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}
 
 .header {
   text-align: center;

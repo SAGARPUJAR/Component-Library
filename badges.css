@@ -1,10 +1,13 @@
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
 header {
   text-align: center;
 }
 
 .content {
   text-align: justify;
-  letter-spacing: 3px;
 }
 .ng-position {
   position: fixed;
