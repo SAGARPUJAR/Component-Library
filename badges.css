@@ -25,6 +25,7 @@ header {
 .ng-green {
   background-color: green;
   color: white;
+  position: absolute;
 }
 
 .ng-red {

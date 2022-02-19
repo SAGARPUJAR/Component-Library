@@ -2,6 +2,10 @@
   --secondarycolor: black;
   --colorwhite: white;
 }
+
+.language-html {
+  width: 100%;
+}
 body {
   font-family: "Nunito Sans", sans-serif !important;
 }

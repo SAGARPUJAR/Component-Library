@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Badges</title>
     <link rel="stylesheet" href="badges.css" />
-    <link rel="stylesheet" href="component.css">
+    <link rel="stylesheet" href="component.css" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Content/css/prism.css" />
   </head>
   <body>
-
     <section class="header"></section>
     <section>
       <div class="sidebar">
@@ -31,22 +31,23 @@
         <header>
           <h3>Badges</h3>
         </header>
-    
+
         <div>
           <p class="content">
-            Use the Badge Component Symbol to draw attention to another interface
-            element or to display a notification. It enhances the component to which
-            it is attached with additional information, disclosed to the user upon
-            interacting with it. The Badge is visually identical to the
+            Use the Badge Component Symbol to draw attention to another
+            interface element or to display a notification. It enhances the
+            component to which it is attached with additional information,
+            disclosed to the user upon interacting with it. The Badge is
+            visually identical to the
           </p>
         </div>
         <hr />
         <h3>Badge Demo</h3>
-    
+
         <p>News <span class="ng-badge ng-green">6</span></p>
         <p>Comments <span class="ng-badge ng-red">8</span></p>
         <p>Updates <span class="ng-badge">9</span></p>
-    
+
         <h3>Badges in Buttons</h3>
         <button>
           Button
@@ -60,11 +61,34 @@
           </p>
           <div>
             <span class="ng-badge ng-green ng-position">2</span>
-            <img class="avatar" src="http://placeimg.com/80/80/people" alt="img1" />
+            <img
+              class="avatar"
+              src="http://placeimg.com/80/80/people"
+              alt="img1"
+            />
           </div>
         </div>
+        <pre class="language-html">
+          <code>
+         <script type="text/plain" class="language-markup">
+          <p>News <span class="ng-badge ng-green">6</span></p>
+    
+          <p>Comments <span class="ng-badge ng-red">8</span></p>
+    
+          <p>Updates <span class="ng-badge">9</span></p>
+    
+          <button>Button<span class="ng-badge">1</span></button>
+    
+          <div>
+            <span class="ng-badge ng-green ng-position">2</span>
+            <img class="avatar" src="http://placeimg.com/80/80/people" alt="img1" />
+          </div>
+         </script>
+     </code>
+    </pre>
       </div>
     </section>
 
+    <script src="Content/js/prism.js"></script>
   </body>
 </html>
